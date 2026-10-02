@@ -23,12 +23,4 @@ public class ToDoService {
     public List<ToDoEntity> listar() {
         return repo.findAll();
     }
-
-
-
-    
-
-
-
-
 }
